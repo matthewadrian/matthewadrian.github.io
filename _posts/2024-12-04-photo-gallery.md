@@ -41,7 +41,7 @@ The images in this post are all zoomable, arranged into different mini-galleries
     <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="" />
   </a>
   <!-- data-pswp-src with custom URL in href -->
-  <a href="https://unsplash.com"
+  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
     data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
     data-pswp-width="2500"
     data-pswp-height="1666"

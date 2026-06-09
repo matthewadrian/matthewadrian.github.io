@@ -1,5 +1,12 @@
 _site
 .bundle
+
+# Cursor (IDE plans, rules, local agent config)
+.cursor/
+cursor-plans/
+
+# Local backups (mv, not rm)
+_backup-*/
 .DS_store
 .idea
 .jekyll-cache
