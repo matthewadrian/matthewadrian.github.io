@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% if page.cv_pdf contains '://' %}
+  {% assign cv_pdf_url = page.cv_pdf %}
+{% else %}
+  {% assign cv_pdf_url = page.cv_pdf | relative_url %}
+{% endif %}
+
+<div class="post cv-pdf-view">
+  <article>
+    <div
+      id="cv-pdf-container"
+      class="cv-pdf-container"
+      data-pdf-url="{{ cv_pdf_url }}"
+      aria-busy="true"
+    >
+      <p class="cv-pdf-loading">Loading CV…</p>
+    </div>
+    <p class="cv-pdf-fallback">
+      <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Download CV PDF</a>
+    </p>
+  </article>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+<script src="{{ '/assets/js/cv-pdf-viewer.js' | relative_url | bust_file_cache }}"></script>
