@@ -1,0 +1,1 @@
+!function(){const e=localStorage.getItem("theme");"dark"!==e&&"light"!==e&&localStorage.setItem("theme",window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),toggleThemeSetting=function(){setThemeSetting("dark"===determineThemeSetting()?"light":"dark")}}();
