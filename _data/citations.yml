@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-06'
 papers:
   shtgM8QAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'A Multi-Modal Deep Learning Model for Drug Potency Prediction: Leveraging Features from Physics-Based Docking and Advanced Co-Folding Methods'
     year: Unknown Year
   shtgM8QAAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 3
     title: Multitask finetuning and acceleration of chemical pretrained models for small molecule drug property prediction
     year: '2025'
   shtgM8QAAAAJ:d1gkVwhDpl0C:
