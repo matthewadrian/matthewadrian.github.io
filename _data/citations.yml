@@ -1,14 +1,18 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-22'
 papers:
   shtgM8QAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'A Multi-Modal Deep Learning Model for Drug Potency Prediction: Leveraging Features from Physics-Based Docking and Advanced Co-Folding Methods'
     year: Unknown Year
   shtgM8QAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 6
     title: Multitask finetuning and acceleration of chemical pretrained models for small molecule drug property prediction
     year: '2025'
+  shtgM8QAAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: 'KERMT: Improving Graph Foundation Models for Drug Discovery through Multi-task Fine-Tuning, Data Scaling, and Accelerated Training'
+    year: '2026'
   shtgM8QAAAAJ:d1gkVwhDpl0C:
     citations: 10
     title: Denoising drug discovery data for improved absorption, distribution, metabolism, excretion, and toxicity property prediction
